@@ -12,6 +12,12 @@ Build the project image:
 
 ```console
 cd ./Docker
-docker build -t tf_classification.
+docker build -t tf_classification .
+```
+
+## 1.3 Run Docker Container
+
+```console
+docker container run -it --name tf_classification tf_classification
 ```
 
