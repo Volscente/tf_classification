@@ -3,7 +3,18 @@ import os
 import json
 import logging
 
-# Load Logging Configuration
-if os.path.exists('logging_configuration.json'):
+# Import Configuration
+from configuration.configuration import logging_configuration_file
 
-    logging.basicConfig(filename='logging_configuration.json', level=logging.INFO)
+
+def log_configuration():
+
+    try:
+
+        print("Import Logging Configuration")
+
+        logging.config.fileConfig(logging_configuration_file)
+
+    except Exception as e:
+
+        print(e)
