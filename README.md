@@ -1,5 +1,7 @@
 # tf_classification
-A Classification problem using TensorFlow Estimator API
+A Classification problem using TensorFlow Estimator API.
+
+[Dataset used.](https://www.kaggle.com/rashikrahmanpritom/heart-attack-analysis-prediction-dataset)
 
 # 1. Installation
 
